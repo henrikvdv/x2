@@ -1,0 +1,101 @@
+`<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link href="shift.css" rel="stylesheet">
+		<link rel="stylesheet" href="bootstrap.css">
+		<link rel="stylesheet" href="main.css">
+		<title>Site Example</title>
+		
+		<script>
+			function myFunction() {
+				var x = document.getElementById("demo2");
+				if (x.style.display === "none") {
+					x.style.display = "block";
+				} else {
+					x.style.display = "none";
+				}
+			}
+		</script>
+
+	</head>
+	<body>
+	    <div class="nav">
+      <div class="container">
+            <ul class="pull-left">
+              <li><a href="#">Henrik</a></li>
+              <li><a href="#">Browse</a></li>
+            </ul>
+            <ul class="pull-right">
+              <li><a href="#">Sign Up</a></li>
+              <li><a href="#">Log In</a></li>
+              <li><a href="#">Help</a></li>
+            </ul>
+
+      </div>
+    </div>
+	
+	 <div class="jumbotron">
+      <div class="container">
+        <h1>Yes</h1>
+        <p>Welcome</p>
+        <a href="#">Learn More</a>
+		<h1>A Web Page</h1>
+		<p id="demo">A Paragraph</p>
+		<button type="button" onclick="myFunction()">Try it</button>
+		
+		<div class="button">
+			<button type="button" onclick="myFunction()">Hide Me!</button>
+		</div>
+		<select id='purpose'>
+		<option value="0">Personal use</option>
+		<option value="1">Business use</option>
+		<option value="2">Passing on to a client</option>
+		</select>
+      </div>
+    </div> 
+
+    
+    <div class="neighborhood-guides">
+        <div class="container">
+            <h2>Nice</h2>
+            <p>What to do here?</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+					<h2>Test </h2>
+                        <img src="http://wallpoper.com/images/00/42/49/85/nature-indonesia_00424985.jpg">
+                    </div>
+						<div class="my-item" onclick="this.style.background='white';">
+							<h3 id="demo2">Hahaa aaaa aaaa</h3>
+						</div>
+						<div class="my-item">
+							<h3>Hahaa aaaa aaaa</h3>
+						</div>
+						<div class="my-item">
+							<h3>Hahaa aaaa aaaa</h3>
+						</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="http://wallpoper.com/images/00/42/49/85/nature-indonesia_00424985.jpg">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="http://wallpoper.com/images/00/42/49/85/nature-indonesia_00424985.jpg">
+                   </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="http://wallpoper.com/images/00/42/49/85/nature-indonesia_00424985.jpg">
+                    </div>
+                </div>
+			</div>
+        </div>
+    </div>
+	
+   
+
+	
+	
+	</body>
+</html>
